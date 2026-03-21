@@ -1,0 +1,21 @@
+2026-03-21 03:59:40,215 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2026-03-21 03:59:40,216 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\GiBi\AppData\Local\Programs\Python\Python310\lib\site-packages\instabot\bot\bot.py
+2026-03-21 04:00:00,794 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2026-03-21 04:00:01,230 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [500]>
+2026-03-21 04:00:01,230 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'Oops, an error occurred.\n'
+2026-03-21 04:00:01,231 - instabot version: 0.117.0 (api) - ERROR - Request returns 500 error!
+2026-03-21 04:00:01,231 - instabot version: 0.117.0 (api) - ERROR - Error checking for `feedback_required`, response text is not JSON
+2026-03-21 04:00:01,232 - instabot version: 0.117.0 (api) - INFO - Full Response: <Response [500]>
+2026-03-21 04:00:01,232 - instabot version: 0.117.0 (api) - INFO - Response Text: Oops, an error occurred.
+
+2026-03-21 04:00:01,234 - instabot version: 0.117.0 (api) - ERROR - Error unknown send request
+2026-03-21 04:00:01,627 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2026-03-21 04:00:02,062 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2026-03-21 04:00:02,452 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2026-03-21 04:00:03,865 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2026-03-21 04:00:03,865 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"We can send you an email to help you get back into your account.","status":"fail","error_title":"Forgotten password for saanvi.offical","buttons":[{"title":"Send email","action":"send_one_click_login_email"},{"title":"Try again","action":"dismiss"}],"is_cp_nonce_flow":false,"login_identifer_type":"username","login_user_input":"saanvi.offical","qe_device_id":"21a003bf-a044-405b-8d66-25e0f8e69439","login_attempt_count":1,"login_source":"unknown","error_code":1,"invalid_credentials":true,"exception_name":"UserInvalidCredentials","retry_response":null,"error_type":"bad_password"}'
+2026-03-21 04:00:03,866 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2026-03-21 04:00:03,866 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: We can send you an email to help you get back into your account.
+2026-03-21 04:00:03,867 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2026-03-21 04:00:03,867 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2026-03-21 04:00:03,868 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
