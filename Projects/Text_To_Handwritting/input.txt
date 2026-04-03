@@ -1,0 +1,15 @@
+Name: Dante
+Class: 10
+
+Question: Explain the importance of technology in modern life.
+
+Answer:
+Technology plays a very important role in our daily life. 
+It helps us communicate with people around the world instantly. 
+It also makes education easier through online learning platforms. 
+
+In addition, technology improves healthcare, transportation, 
+and business systems. Without technology, modern life would 
+be much more difficult and slower.
+
+Therefore, technology is essential for progress and development.
